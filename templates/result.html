@@ -1,0 +1,14 @@
+﻿{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    {% if filename %}
+        <div>
+            <h3>Content Image</h3>
+            <img src="{{ url_for('display_image', filename=filename[0]) }}" , height=300>
+            <h3>Style Image</h3>
+            <img src="{{ url_for('display_image', filename=filename[1]) }}" , height=300>
+            <h3>Stylized Image</h3>
+            <img src="{{ url_for('display_image', filename=filename[2]) }}" , height=300>
+        </div>
+    {% endif %}
+{% endblock %}

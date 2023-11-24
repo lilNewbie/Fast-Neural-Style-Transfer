@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(1, 1, 80);
+    color: azure;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.head {
+    background-color: rgb(5, 5, 56);
+    /* background-image: radial-gradient(#fff 10%, transparent 11%),
+            radial-gradient(#fff 10%, transparent 11%); */
+    background-image: url('/static/images/i4.png');
+    background-size: 50px 50px;
+    background-position: 0 0, 50px 50px;
+    
+    background-repeat: repeat;
+
+    padding: 25;
+    margin-top: 0;
+}
