@@ -37,9 +37,14 @@ Run main.py
 
 
 ## Demo
+<img src='https://github.com/lilNewbie/Fast-Neural-Style-Transfer/assets/90834922/4cc60a84-5591-4e5d-a072-13093512a2f1' height='450'>
 
-Insert gif or link to demo
+### After uploading the images we get
 
+<img src='https://github.com/lilNewbie/Fast-Neural-Style-Transfer/assets/90834922/d95e2d3e-8595-4fe2-b2d3-1035a5c2b920' height='450'>
+<img src='https://github.com/lilNewbie/Fast-Neural-Style-Transfer/assets/90834922/ae67a3b5-a4da-4e44-a88b-a5cdf1dbb3bd' height='450'>
+
+(PS : The CSS could be better)
 
 ## ⚠Warning
 
