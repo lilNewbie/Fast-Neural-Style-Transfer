@@ -29,6 +29,12 @@ Go to the project directory
   cd Fast-Neural-Style-Transfer
 ```
 
+Feel free to use a virtual environment too
+
+```bash
+  pip install -r requirements.txt
+```
+
 Run main.py
 
 ```bash
