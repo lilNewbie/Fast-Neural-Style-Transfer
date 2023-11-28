@@ -12,7 +12,7 @@ hub_module = hub.load('https://tfhub.dev/google/magenta/arbitrary-image-stylizat
 app = Flask(__name__)
 
 UPLOAD_FOLDER = 'static/uploads/'
-if ~os.path.exists(UPLOAD_FOLDER):
+if os.path.exists(UPLOAD_FOLDER)==False:
     os.makedirs(UPLOAD_FOLDER)
 
 app.secret_key = "secretkey"

@@ -2,7 +2,7 @@
 {% block title %}Home{% endblock %}
 {% block content %}
     {% if filename %}
-        <div>
+        <div class="display">
             <h3>Content Image</h3>
             <img src="{{ url_for('display_image', filename=filename[0]) }}" , height=300>
             <h3>Style Image</h3>
